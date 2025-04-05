@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Medum-fonts;
+    src: url(fonts/EncodeSansSemiExpanded-Medium);
+}
+
+
+.img-logo{
+    width: 120px;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0a0b27;
+}
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar-nav li{
+    margin-left: 20px;
+}
+
+.navbar-nav li a{
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-nav li a:hover{
+    color: #e53f27;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #e53f27;
+    border-radius   : 0;
+}
+
+.double-w{
+    width:320px
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+    top:52px;
+  }
+
+.navbar-nav .dropdown-menu li a{
+    color: white;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: transparent !important;
+    
+  }
+  .dropdown-item.active, .dropdown-item:active {
+    text-decoration: transparent !important;
+    background-color: transparent !important;
+  }
+
+.navbar-nav .dropdown-menu li a:hover{
+    color: #0a0b27;
+}
+
+.about-area{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gear {
+    background: url("../images/abt-img.png") no-repeat center center;
+    background-size: contain;
+    width: 450px;
+    height: 450px;
+    top: 20px;
+    left: 20px;
+    transform: rotate(0deg);
+    transition: transform 0.05s linear;
+}
+
+.appy-fizz-font{
+    font-size: 90px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.social-media-icons ul{
+    list-style: none;
+    padding-left: 0;
+}
+.social-media-icons ul li {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.social-media-icons ul li a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #0a0b27;
+}
+
+.social-media-icons ul li i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.ftr p a:hover {
+    color: #e53f27 !important;
+    text-decoration:underline !important;
+}
+
+.ftr .social-media-icons ul li a{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #0a0b27;
+}
+
+.ftr .social-media-icons ul li i{
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.ftr .social-media-icons ul li a:hover{
+    background-color: #e53f27;
+}
+
+.leave-img {
+    position: absolute;
+    width: 190px;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media only screen  and (max-width: 768px) {
+    .gear {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+
+
+
+@media only screen  and (max-width: 576px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-nav{
+        align-items: start;
+    }
+
+    .gear {
+        width: 250px;
+        height: 250px;
+    }
+
+    .appy-fizz-font {
+        font-size: 53px;}
+
+        .about-content{
+            padding: 25px !important;
+        }
+
+        .about-content p{
+            font-size: 17px !important;
+        }
+
+        .ftr-body{
+            padding:0 !important;
+            margin-top: 20px;
+        }
+}
